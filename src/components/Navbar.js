@@ -15,11 +15,11 @@ export default function Navbar(props){
 
                     <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
                         <li className='nav-item'>
-                            <Link className='nav-link' aria-current='page' to=''>Home</Link>
+                            <Link className='nav-link' aria-current='page' to='/'>Home</Link>
                         </li>
 
                         <li className='nav-item mr-auto'>
-                            <Link className='nav-link' to='/about'>{props.aboutText}</Link>
+                            <Link className='nav-link' to='/about'>{props.aboutText}</Link>14
                         </li>
                     </ul>
                     <div className='form-check form-switch'>
