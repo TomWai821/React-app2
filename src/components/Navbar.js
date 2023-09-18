@@ -24,7 +24,7 @@ export default function Navbar(props){
                     </ul>
                     <div className='form-check form-switch' style={{position:'absolute', right:'1%'}} >
                         <input className='form-check-input' type='checkbox' onClick={props.toggleMode} id='customSwitch1'/>
-                        <label className='form-check-label' for='customSwitch1'>Enable DarkMode</label>
+                        <label className='form-check-label' for='customSwitch1'>nable DarkMode</label>
                     </div>
                 </div>
             </div>
