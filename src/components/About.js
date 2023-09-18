@@ -15,12 +15,12 @@ export default function About(props){
               <h2 className='accordion-header' id='headingOne'>
                 <button className='accordion-button collapsed' type='button' data-bs-toggle='collapse' 
                 data-bs-target='#CollapseOne' aria-expanded='false' aria-controls='CollapseOne' style={myStyle}>
-                  Who are you?
+                  <b>How to use textUtils?</b>
                 </button>
               </h2>
               <div id='CollapseOne' className='accordion-collapse collapse' aria-labelledby='headingOne' data-bs-parent='#accordionExample'>
                 <div className='accordion-body' style={myStyle}>
-                    
+                    Typing the word in input field and press the component you want (e.g. Convert to uppercase/lowercase)
                 </div>
               </div>
             </div>
@@ -29,26 +29,12 @@ export default function About(props){
               <h2 className='accordion-header' id='headingTwo'> 
                 <button className='accordion-button collapsed' type='button' data-bs-toggle='collapse' 
                 data-bs-target='#CollapseTwo' aria-expanded='false' aria-controls='CollapseTwo' style={myStyle}>
-                  
+                  <b>Why you want to make this website?</b>
                 </button>
               </h2>
               <div id='CollapseTwo' className='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionExample'>
                 <div className='accordion-body'>
-                  
-                </div>
-              </div>
-            </div>
-
-            <div className='accordion-item' style={myStyle}>
-              <h2 className='accordion-header' id='headingThree'>
-                <button className='accordion-button collapsed' type='button' data-bs-toggle='collapse' 
-                data-bs-target='#CollapseThree' aria-expanded='false' aria-controls='CollapseThree' style={myStyle}>
-                  
-                </button>
-              </h2>
-              <div id='CollapseThree' className='accordion-collapse collapse' aria-labelledby='headingThree' data-bs-parent='#accordionExample'>
-                <div className='accordion-body'>
-                  
+                  Because i want to create a text counter website which have convenience components (e.g. remove extra space)
                 </div>
               </div>
             </div>

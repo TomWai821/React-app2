@@ -42,7 +42,6 @@ function App() {
       showAlert('Light mode has been enabled', 'success')
       document.title = 'TextUtils-Light Mode'
     }
-      
   }
 
   return (
